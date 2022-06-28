@@ -1,3 +1,17 @@
 body {
-  background-color: lightblue;
+  background-image: url(https://m.media-amazon.com/images/I/71BkE7Jet7L._AC_SL1500_.jpg);
+  /* background-repeat: no-repeat;
+  background-size: 70%; */
+}
+
+#gamePlay {
+  display: none;
+  padding-top: 20px;
+}
+
+#gameSetup {
+  background-color: rgba(51, 51, 51, .5);
+  width: fit-content;
+  border-radius: 6px;
+  padding: 1rem;
 }

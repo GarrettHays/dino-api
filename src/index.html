@@ -4,11 +4,19 @@
 </head>
 <body>
   <div class="container">
-    <h1>Dino!</h1>
-    <!-- <label for="word-count">Enter the number of Dino Ipsum words you want:</label> -->
-    <button class="btn-success" id="dino-ipsum-button">Start Game</button>
-    <input type="text" maxlength="1">
-    <div class="show-ipsum"></div>
+    <div id="gameSetup"> 
+      <h1>Dino!</h1>
+      <p>These are words to describe the game</p>
+      <p>User do this then that.</p>
+      <p>Click Start Game when you are ready to play</p>
+      <!-- <label for="word-count">Enter the number of Dino Ipsum words you want:</label> -->
+      <button class="btn-success" id="dino-ipsum-button">Start Game</button>
+    </div>
+    <div id="gamePlay">
+      <input id ="dinoInput" type="text" maxlength="1" placeholder="input letter">
+      <button class="btn-success" id="dinoGuess">Guess!</button>
+      <div class="show-ipsum"></div>
+    </div>
   </div>
 </body>
 </html>
